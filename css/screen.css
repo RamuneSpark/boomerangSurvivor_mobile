@@ -1,0 +1,38 @@
+html, head{
+    overflow: hidden;
+    
+}
+
+body {
+    touch-action: none;
+  
+}
+
+#screen{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        z-index: 0;
+        user-select: none;
+    }
+
+#screenBase img{
+        z-index: -100;
+    }
+
+
+#screen img{
+        z-index: -10;
+    }
+
+#script_error{
+         position: absolute;
+        left: 0;
+        top: 0; 
+    }
+
+.swal2-popup {
+    touch-action: none;
+}
