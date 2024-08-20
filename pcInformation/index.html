@@ -1,0 +1,128 @@
+<html>
+  <head>
+      <meta charset = "UTF-8" name="viewport" content="user-scalable=no, width=device-width"/>
+        <link rel="shortcut icon" type = "image/vnd.microsoft.icon" href="../sys/favicon.ico" />
+        <title>ブーメランサバイバー モバイル ご案内</title>
+
+           
+<!-- スタイルシート -->
+              <link rel = "stylesheet" href="./css/screen.css">
+            <link rel = "stylesheet" href="../css/font.css">
+    
+    </head>
+    
+    <body style ="background-color: black; overflow: hidden">
+       
+
+        
+       
+
+        <div id = "info">
+
+        <img src = "image/info.jpg">
+        
+          <div id = "button" onclick= "window.location.href = 'https://ramune-spark.booth.pm/'"><img></div>
+        
+        </div>
+        
+
+        
+        
+
+        
+   
+<!-- JavaScript -->
+
+        <script language = "JavaScript">
+
+
+          let a = 0;
+
+            if(phoneCheck() === false){
+
+          setInterval(()=>{
+
+
+            let w = innerWidth;
+            let h = innerHeight;
+
+            let scaleBase = "W";
+            let scale;
+
+            if(w/1500 <= h/1000){
+
+              scaleBase = "W";
+              scale = w/1500;
+
+            }else{
+
+              scaleBase = "H";
+              scale = h/1000;
+
+            }
+
+            if(scaleBase === "W"){
+              document.getElementById("info").style.width = w;
+              document.getElementById("info").style.height = (w)*(1000/1500);
+            }else if(scaleBase === "H"){
+              document.getElementById("info").style.height = h;
+              document.getElementById("info").style.width = (h)*(1500/1000);
+            }
+
+            if(a === 0){
+
+              a = 1;
+
+              document.getElementById("info").appendChild(document.getElementById("button"));
+
+            document.getElementById("button").getElementsByTagName('img')[0].src = "image/button.jpg";
+
+            }
+
+            document.getElementById("button").style.width = 750*scale;
+            document.getElementById("button").style.height = 100*scale;
+            document.getElementById("button").style.position = "absolute";
+            document.getElementById("button").style.left = "10%";
+            document.getElementById("button").style.top = "90%";
+            document.getElementById("button").style.transform = "translate(0%,-100%)";
+
+            if(phoneCheck()){
+
+              redirect();
+
+            }
+
+
+
+          },(1000/50));
+
+        }else{
+          
+          redirect();
+
+
+        }
+
+          function redirect(){
+            window.location.href = '../index.html';
+          }
+
+
+          function phoneCheck(){
+            if (navigator.userAgent.match(/iPhone|iPad|Android.+Mobile|Android/)) {
+               return true;
+            } else {
+                return false;
+            }
+           }
+
+
+
+
+        </script>
+
+
+        
+    </body>
+    </head>
+</html>
