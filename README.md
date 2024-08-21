@@ -2,7 +2,7 @@
 
 ## URL
 
-[https://ramunespark.github.io/boomerangSurvivor_mobile/]
+https://ramunespark.github.io/boomerangSurvivor_mobile/
 
 ## ご注意
 
@@ -10,7 +10,7 @@
 
 * 本サービスの利用によって、ユーザーが第三者より損害を被ったり、何らかのトラブルに発展したりした場合については、ラムネは一切の責任を負うことなく、画像選択者がすべての責任を被るものとします。
 
-* 本サービスの動画配信やスクリーンショット共有などを行う場合は、[配信ガイドライン]([https://ramunespark.github.io/guideLine/])をご覧ください。
+* 本サービスの動画配信やスクリーンショット共有などを行う場合は、[配信ガイドライン](https://ramunespark.github.io/guideLine/)をご覧ください。
 
 * 記録カード（後述）は、**スクリーンショットと同様の条件によって**、外部への共有が許可されています。
   - 記録カードの加工はご遠慮ください。
