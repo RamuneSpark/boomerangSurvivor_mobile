@@ -51,7 +51,7 @@ https://ramunespark.github.io/boomerangSurvivor_mobile/
 
 * お問い合わせはTwitterのラムネアカウントまでお願いします。ただし、ラムネからの回答を保証するものではございません。
 
-<br>2024年8月21日　更新<br>RAMUNE SPARK<br><br>
+<br>2024年8月23日　更新<br>RAMUNE SPARK<br><br>
 
 
 ## 遊び方
