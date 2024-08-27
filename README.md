@@ -10,7 +10,7 @@ https://ramunespark.github.io/boomerangSurvivor_mobile/
 
 
 
-## ご注意
+## はじめに
 
 ### SNS等での共有に関する事項
 
@@ -39,6 +39,8 @@ https://ramunespark.github.io/boomerangSurvivor_mobile/
 
 * 下記の「遊び方」の項目には、このゲームの利用方法が記載されています。このゲームにおいて不明点がございましたら、お問い合わせの前に一度ご覧いただくことを推奨します。
 
+* 推奨ブラウザは、「Google Chrome」です。
+
 * 端末や環境によっては、ゲームが重くなったり、正常に動作しなかったりする可能性がございます。
 
 * このゲームは、横画面レイアウトに対応しておりません。横画面でも表示することはできますが、ゲームが遊びにくくなってしまう可能性がございます。
@@ -50,8 +52,6 @@ https://ramunespark.github.io/boomerangSurvivor_mobile/
 * このゲームや本説明の内容は、予告なく変更・削除となる場合があります。
 
 * お問い合わせはTwitterのラムネアカウントまでお願いします。ただし、ラムネからの回答を保証するものではございません。
-
-<br>2024年8月23日　更新<br>RAMUNE SPARK<br><br>
 
 
 ## 遊び方
@@ -126,4 +126,7 @@ https://ramunespark.github.io/boomerangSurvivor_mobile/
 
 * メインプログラム / キャラデザイン・イラスト / UIデザイン / ミュージックコンポーザー / サウンドFX / プラン・ディレクション
   - ラムネ
+
+## 最終更新日
+2024年8月28日　<br>RAMUNE SPARK
 
