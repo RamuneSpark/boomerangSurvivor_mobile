@@ -64,33 +64,32 @@
             }
 
             if(scaleBase === "W"){
-              document.getElementById("info").style.width = w;
-              document.getElementById("info").style.height = (w)*(1000/1500);
+              document.getElementById("info").style.width = w+"px";
+              document.getElementById("info").style.height = (w)*(1000/1500)+"px";
             }else if(scaleBase === "H"){
-              document.getElementById("info").style.height = h;
-              document.getElementById("info").style.width = (h)*(1500/1000);
+              document.getElementById("info").style.height = h+"px";
+              document.getElementById("info").style.width = (h)*(1500/1000)+"px";
             }
 
             if(a === 0){
 
               a = 1;
 
-              document.getElementById("info").appendChild(document.getElementById("button"));
 
             document.getElementById("button").getElementsByTagName('img')[0].src = "image/button.jpg";
             document.getElementById("buttonContact").getElementsByTagName('img')[0].src = "image/buttonContact.jpg";
 
             }
 
-            document.getElementById("button").style.width = 750*scale;
-            document.getElementById("button").style.height = 100*scale;
+            document.getElementById("button").style.width = 750*scale+"px";
+            document.getElementById("button").style.height = 100*scale+"px";
             document.getElementById("button").style.position = "absolute";
             document.getElementById("button").style.left = "10%";
             document.getElementById("button").style.top = "90%";
             document.getElementById("button").style.transform = "translate(0%,-100%)";
 
-            document.getElementById("buttonContact").style.width = 300*scale;
-            document.getElementById("buttonContact").style.height = 100*scale;
+            document.getElementById("buttonContact").style.width = 300*scale+"px";
+            document.getElementById("buttonContact").style.height = 100*scale+"px";
             document.getElementById("buttonContact").style.position = "absolute";
             document.getElementById("buttonContact").style.left = "90%";
             document.getElementById("buttonContact").style.top = "90%";
