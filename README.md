@@ -8,6 +8,8 @@ https://ramunespark.github.io/boomerangSurvivor_mobile/
 
 [@RAMUNE_SPARK](https://x.com/RAMUNE_SPARK)（Twitter）
 
+ramunespark@gmail.com
+
 
 
 ## はじめに
