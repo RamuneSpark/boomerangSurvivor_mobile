@@ -5,10 +5,10 @@
     <meta property="og:image" content="https://ramunespark.github.io/boomerangSurvivor_mobile/information/info.png" alt="『ブーメランサバイバー モバイル』のメインビジュアル画像です。">
     <meta property="og:description" content="ブーメランで敵を倒す、スコアアタック形式のスマホ専用ブラウザゲーム">
 
-    <meta content="https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot0.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（1枚目）です。">
-    <meta content="https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot1.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（2枚目）です。">
-    <meta content="https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot2.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（3枚目）です。">
-    <meta content="https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot3.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（4枚目）です。">
+    <img class = "screenShot" src = "https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot0.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（1枚目）です。" style="display:none">
+    <img class = "screenShot" src = "https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot1.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（2枚目）です。" style="display:none">
+    <img class = "screenShot" src = "https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot2.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（3枚目）です。" style="display:none">
+    <img class = "screenShot" src = "https://ramunespark.github.io/boomerangSurvivor_mobile/information/screenShot3.png" alt="『ブーメランサバイバー モバイル』のスクリーンショット（4枚目）です。" style="display:none">
     
 
       <meta charset = "UTF-8" name="viewport" content="user-scalable=no, width=device-width"/>
@@ -85,6 +85,24 @@ SOFTWARE.
 
    
 <!-- JavaScript -->
+
+<script lang="javascript">
+
+//HTML上のスクリーンショットを削除します。
+function removeScreenShot() {
+    const images = document.querySelectorAll('img.' + "screenShot");
+    
+    images.forEach(function(image) {
+        image.parentNode.removeChild(image);
+    });
+}
+
+
+removeScreenShot();
+
+
+</script>
+
 <script src="modules/sweetalert2.all.min.js"></script>
 
 <script type ="text/javascript" src="js/program.js"></script>
