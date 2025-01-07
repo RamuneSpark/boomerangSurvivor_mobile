@@ -15,6 +15,25 @@ animate.cssは、MITライセンスの下で公開されています。
 Copyright (c) 2020 Daniel Eden
 
 ----------------------------------------------------
+【crypto-js】
+
+このプロジェクトはcrypto-jsを使用しています。
+crypto-jsは、MITライセンスの下で公開されています。
+
+
+Copyright (c) 2009-2013 Jeff Mott  
+Copyright (c) 2013-2016 Evan Vosberg
+
+----------------------------------------------------
+【socket.io】
+
+このプロジェクトはsocket.ioを使用しています。
+socket.ioは、MITライセンスの下で公開されています。
+
+
+Copyright (c) 2014-present Guillermo Rauch and Socket.IO contributors
+
+----------------------------------------------------
 
 MITライセンスの詳細については、下記をご覧ください。
 
