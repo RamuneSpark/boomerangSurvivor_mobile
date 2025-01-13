@@ -237,5 +237,5 @@ ramunespark+contact@gmail.com（メールアドレス）
   - ラムネ
 
 ## 最終更新日
-2025年1月28日　<br>RAMUNE SPARK
+2025年1月14日　<br>RAMUNE SPARK
 
